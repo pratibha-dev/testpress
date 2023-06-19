@@ -71,7 +71,7 @@ function create_posttype() {
 	/* Custom Post Type End */
 
 
-	/*Custom Post type start*/
+	/*Custom Post type started here*/
 function cw_post_type_news() {
 	$supports = array(
 	'title', // post title
