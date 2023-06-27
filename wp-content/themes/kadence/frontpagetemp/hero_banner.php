@@ -26,7 +26,8 @@ $password = get_field( "password", "option");
 
 <div class="email">
 Email us at:   <a href="<?php echo esc_url('mailto:' . antispambot($email)); ?>"><?php echo (antispambot($email)); ?></a>
-number<?php echo $number; ?>
+Contact us at:   <a href="<?php echo esc_url('tel:' . antispambot($number)); ?>"><?php echo (antispambot($number)); ?></a>
+
  </div>
 
 
